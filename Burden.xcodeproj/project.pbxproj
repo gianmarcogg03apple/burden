@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1B30F80529015C1F003BBE2C /* BurdenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30F80429015C1F003BBE2C /* BurdenApp.swift */; };
-		1B30F80729015C1F003BBE2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30F80629015C1F003BBE2C /* ContentView.swift */; };
 		1B30F80929015C20003BBE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B30F80829015C20003BBE2C /* Assets.xcassets */; };
 		1B30F80C29015C20003BBE2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B30F80B29015C20003BBE2C /* Preview Assets.xcassets */; };
 		1B30F81629015C20003BBE2C /* BurdenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30F81529015C20003BBE2C /* BurdenTests.swift */; };
 		1B30F82029015C20003BBE2C /* BurdenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30F81F29015C20003BBE2C /* BurdenUITests.swift */; };
 		1B30F82229015C20003BBE2C /* BurdenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30F82129015C20003BBE2C /* BurdenUITestsLaunchTests.swift */; };
+		E15F89BD2901948700DE8C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30F80629015C1F003BBE2C /* ContentView.swift */; };
+		E15F89BF290199BF00DE8C9A /* OnePlayerGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F89BE290199BF00DE8C9A /* OnePlayerGameView.swift */; };
+		E15F89C12901AE3E00DE8C9A /* OnePlayerGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F89C02901AE3D00DE8C9A /* OnePlayerGameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		1B30F81B29015C20003BBE2C /* BurdenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurdenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B30F81F29015C20003BBE2C /* BurdenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurdenUITests.swift; sourceTree = "<group>"; };
 		1B30F82129015C20003BBE2C /* BurdenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurdenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E15F89BE290199BF00DE8C9A /* OnePlayerGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlayerGameView.swift; sourceTree = "<group>"; };
+		E15F89C02901AE3D00DE8C9A /* OnePlayerGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlayerGameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				1B30F80429015C1F003BBE2C /* BurdenApp.swift */,
-				1B30F80629015C1F003BBE2C /* ContentView.swift */,
+				E15F89C32901AE5900DE8C9A /* View */,
+				E15F89C22901AE4A00DE8C9A /* Model */,
 				1B30F80829015C20003BBE2C /* Assets.xcassets */,
 				1B30F80A29015C20003BBE2C /* Preview Content */,
 			);
@@ -125,6 +130,23 @@
 				1B30F82129015C20003BBE2C /* BurdenUITestsLaunchTests.swift */,
 			);
 			path = BurdenUITests;
+			sourceTree = "<group>";
+		};
+		E15F89C22901AE4A00DE8C9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E15F89C02901AE3D00DE8C9A /* OnePlayerGameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E15F89C32901AE5900DE8C9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B30F80629015C1F003BBE2C /* ContentView.swift */,
+				E15F89BE290199BF00DE8C9A /* OnePlayerGameView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B30F80729015C1F003BBE2C /* ContentView.swift in Sources */,
+				E15F89BF290199BF00DE8C9A /* OnePlayerGameView.swift in Sources */,
+				E15F89C12901AE3E00DE8C9A /* OnePlayerGameModel.swift in Sources */,
+				E15F89BD2901948700DE8C9A /* ContentView.swift in Sources */,
 				1B30F80529015C1F003BBE2C /* BurdenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
