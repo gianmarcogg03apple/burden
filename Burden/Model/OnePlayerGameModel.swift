@@ -22,7 +22,7 @@ struct Spartito {
 struct Emotion {
     var spartito: Spartito
     var colorName: String
-    var emotionTitle: String
+    var emotionTitle: EmotionName
 }
 
 struct EmotionShape {
@@ -32,4 +32,9 @@ struct EmotionShape {
     var isTouched: Bool
     var isVisible: Bool
     var positionOnThePlayground: Int
+}
+
+enum EmotionName {
+    case Sad,Shocked,Anxious,Strong,Happy,Worried,Angry,Disgusted,Remorse,Disapointed,Afraid,Submission,Loved,Optimistic,Aggressiveness,Contempt
+    
 }
