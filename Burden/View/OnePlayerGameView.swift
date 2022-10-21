@@ -23,7 +23,8 @@ struct OnePlayerGameView: View {
 struct Instructions: View{
     var body: some View{
         VStack{
-            Text("Tap the elements in the order its appeared")
+            Text("Tap the elements in the\norder they've appeared in")
+                .multilineTextAlignment(.center)
         }.padding(.bottom)
         
     }
@@ -52,17 +53,17 @@ struct Header: View{
             VStack{
                 
                 HStack{
-                    Text("high score :")
+                    Text("high score:")
                     Spacer()
                     Image(systemName: "pause.fill")
                 }.padding(.horizontal)
                 
                 Text("0") // This is the score to update
-                    .font(.largeTitle)
-                    .padding(30)
+                    .font(.system(size: 60))
+                    .padding(15)
                 // Spacer()
                 HStack{ // This is the Spartito
-                    Text("hint :")
+                    Text("hint:")
                     Spacer()
                 }.padding(.horizontal)
             }
