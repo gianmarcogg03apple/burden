@@ -11,6 +11,7 @@ struct OnePlayerGame{
     var highScore: Int
     var ongoingScore: Int
     var spartito: Spartito
+    var isOnAir: Bool
     
 }
 
