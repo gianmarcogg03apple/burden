@@ -12,8 +12,13 @@ struct OnePlayerGameView: View {
         ZStack{
             VStack{
                 Header()
-                Playground()
-                Instructions()
+                ZStack{
+                    Playground()
+                    VStack{
+                        Spacer()
+                        Instructions().padding(.horizontal)
+                    }
+                }
             }
         }
     }
@@ -22,22 +27,34 @@ struct OnePlayerGameView: View {
 // Instruction that appear the first time you play the game
 struct Instructions: View{
     var body: some View{
-        VStack{
-            Text("Tap the elements in the\norder they've appeared in")
-                .multilineTextAlignment(.center)
-        }.padding(.bottom)
-        
+        ZStack{
+            VStack{
+                Spacer()
+                Text("Tap the elements in the\norder they've appeared in")
+                    .multilineTextAlignment(.center)
+            }
+        }
     }
 }
+
 
 // This is the playground where the game updates
 struct Playground: View {
     var body: some View{
         ZStack{
-            
-            Rectangle()
-                .foregroundColor(Color("BackgroundColorPlayground"))
-            
+            Grid {
+                ForEach(0..<9){ _ in
+                    GridRow {
+                        ForEach(0..<7) { _ in
+                            Image(getEmotionName(theEmotion: EmotionName.allCases.randomElement()!))
+                                .resizable()
+                                .frame(width: 45,height: 45)
+                                .scaledToFit()
+                            //Image(getSpartito(theEmotion: EmotionName.allCases.randomElement()!))
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -46,12 +63,12 @@ struct Playground: View {
 struct Header: View{
     var body: some View {
         ZStack{
-            
             Rectangle()
                 .foregroundColor(Color("BackgroundColorHeader"))
-                .frame(height: 200)
+                .frame(height: 250)
+                .shadow(radius: 1)
+            
             VStack{
-                
                 HStack{
                     Text("high score:")
                     Spacer()
@@ -71,6 +88,16 @@ struct Header: View{
         }
     }
 }
+
+struct ColorSquare: View {
+    let color: Color
+    
+    var body: some View {
+        color
+            .frame(width: 50, height: 50)
+    }
+}
+
 
 
 struct OnePlayerGameView_Previews: PreviewProvider {

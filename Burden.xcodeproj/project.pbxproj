@@ -17,6 +17,7 @@
 		E15F89BD2901948700DE8C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30F80629015C1F003BBE2C /* ContentView.swift */; };
 		E15F89BF290199BF00DE8C9A /* OnePlayerGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F89BE290199BF00DE8C9A /* OnePlayerGameView.swift */; };
 		E15F89C12901AE3E00DE8C9A /* OnePlayerGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F89C02901AE3D00DE8C9A /* OnePlayerGameModel.swift */; };
+		E183AF87290968CA000254CC /* OnePlayerGameFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E183AF86290968CA000254CC /* OnePlayerGameFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		1B6EA6952906834F00075166 /* FeelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelView.swift; sourceTree = "<group>"; };
 		E15F89BE290199BF00DE8C9A /* OnePlayerGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlayerGameView.swift; sourceTree = "<group>"; };
 		E15F89C02901AE3D00DE8C9A /* OnePlayerGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlayerGameModel.swift; sourceTree = "<group>"; };
+		E183AF86290968CA000254CC /* OnePlayerGameFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlayerGameFunc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				E15F89C02901AE3D00DE8C9A /* OnePlayerGameModel.swift */,
+				E183AF86290968CA000254CC /* OnePlayerGameFunc.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				E15F89BF290199BF00DE8C9A /* OnePlayerGameView.swift in Sources */,
 				1B6EA6962906834F00075166 /* FeelView.swift in Sources */,
 				E15F89C12901AE3E00DE8C9A /* OnePlayerGameModel.swift in Sources */,
+				E183AF87290968CA000254CC /* OnePlayerGameFunc.swift in Sources */,
 				E15F89BD2901948700DE8C9A /* ContentView.swift in Sources */,
 				1B30F80529015C1F003BBE2C /* BurdenApp.swift in Sources */,
 			);
