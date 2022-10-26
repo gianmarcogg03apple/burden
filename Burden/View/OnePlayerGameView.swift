@@ -81,13 +81,34 @@ struct Header: View{
                 // Spacer()
                 HStack{ // This is the Spartito
                     Text("hint:")
-                    Spacer()
-                }.padding(.horizontal)
-            }
-            
+                    //Afficher chaque elements de la partition
+                    Grid() {
+                        GridRow {
+                            ForEach(0..<8){ emo in
+                                Image(getEmotionName(theEmotion:  getSpartito(theEmotion: Sad).aPlay[emo].emotionTitle))
+                                    .resizable()
+                                    .frame(width: 25,height: 25)
+                                    .scaledToFit()
+                            }
+                        }
+                        Divider()
+                            .gridCellUnsizedAxes(.horizontal)
+                        GridRow {
+                            ForEach(8..<16){ emo in
+                                Image(getEmotionName(theEmotion:  getSpartito(theEmotion: Sad).aPlay[emo].emotionTitle))
+                                    .resizable()
+                                    .frame(width: 25,height: 25)
+                                    .scaledToFit()
+                            }
+                        }
+                    }
+                }
+            }.padding(.horizontal)
         }
+        
     }
 }
+
 
 
 
