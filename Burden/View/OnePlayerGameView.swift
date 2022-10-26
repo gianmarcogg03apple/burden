@@ -89,15 +89,6 @@ struct Header: View{
     }
 }
 
-struct ColorSquare: View {
-    let color: Color
-    
-    var body: some View {
-        color
-            .frame(width: 50, height: 50)
-    }
-}
-
 
 
 struct OnePlayerGameView_Previews: PreviewProvider {

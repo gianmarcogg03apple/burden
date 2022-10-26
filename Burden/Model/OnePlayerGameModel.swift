@@ -49,7 +49,7 @@ enum RadiantCircle {
 }
 
 enum EmotionName : CaseIterable {
-    case Sad,Shocked,Anxious,Strong,Happy,Worried,Angry,Disgusted,Remorse,Disapointed,Afraid,Submission,Loved,Optimistic,Aggressiveness,Contempt
+    case Sad,Shocked,Anxious,Powerful,Happy,Worried,Angry,Disgusted,Remorse,Disapointed,Afraid,Submission,Loved,Optimistic,Aggressiveness,Contempt
     
 }
 
@@ -63,7 +63,7 @@ enum ShapeColor {
 
 // DataSet of Emotions
 var Sad = Emotion(colorName: "Sad", emotionTitle: .Sad, emotionShape: EmotionShape(shapePictureName: "Sad", shapeColor: .Blue, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
-var Strong = Emotion(colorName: "Strong", emotionTitle: .Strong, emotionShape: EmotionShape(shapePictureName: "Strong", shapeColor: .LightGreen, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
+var Powerful = Emotion(colorName: "Powerful", emotionTitle: .Powerful, emotionShape: EmotionShape(shapePictureName: "Powerful", shapeColor: .LightGreen, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
 var Remorse = Emotion(colorName: "Remorse", emotionTitle: .Remorse, emotionShape: EmotionShape(shapePictureName: "Remorse", shapeColor: .Purple, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
 var Disapointed = Emotion(colorName: "Disapointed", emotionTitle: .Disapointed, emotionShape: EmotionShape(shapePictureName: "Disapointed", shapeColor: .Blue, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
 var Optimistic = Emotion(colorName: "Optimistic", emotionTitle: .Optimistic, emotionShape: EmotionShape(shapePictureName: "Optimistic", shapeColor: .Orange, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
