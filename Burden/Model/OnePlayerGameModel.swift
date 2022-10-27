@@ -61,6 +61,11 @@ enum ShapeColor {
 }
 
 
+enum Score {
+    case Zero,One,Two,Three,Four,Five,Six,Seven,Eight,Nine,Ten,Eleven,Twelve,Thirteen,Fourteen,Fifteen,Sixteen
+}
+
+
 // DataSet of Emotions
 var sad = Emotion(colorName: "Sad", emotionTitle: .Sad, emotionShape: EmotionShape(shapePictureName: "Sad", shapeColor: .Blue, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
 var powerful = Emotion(colorName: "Powerful", emotionTitle: .Powerful, emotionShape: EmotionShape(shapePictureName: "Powerful", shapeColor: .LightGreen, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
@@ -78,3 +83,29 @@ var contempt = Emotion(colorName: "Contempt", emotionTitle: .Contempt, emotionSh
 var impatient = Emotion(colorName: "Impatient", emotionTitle: .Impatient, emotionShape: EmotionShape(shapePictureName: "Impatient", shapeColor: .Purple, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
 var submission = Emotion(colorName: "Submission", emotionTitle: .Submission, emotionShape: EmotionShape(shapePictureName: "Submission", shapeColor: .LightGreen, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
 var worried = Emotion(colorName: "Worried", emotionTitle: .Worried, emotionShape: EmotionShape(shapePictureName: "Worried", shapeColor: .Orange, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
+
+
+
+// Haptics Dataset
+
+let ahapFiles = [
+    "AHAP/Hit",
+    "AHAP/Hit",
+    "AHAP/Hit",
+    "AHAP/Hit",
+    "AHAP/Triple",
+    "AHAP/Rumble",
+    "AHAP/Recharge",
+    "AHAP/Heartbeats"
+]
+
+let ahapLocalities = [
+    GCHapticsLocality.default,
+    GCHapticsLocality.all,
+    GCHapticsLocality.leftHandle,
+    GCHapticsLocality.rightHandle,
+    GCHapticsLocality.default,
+    GCHapticsLocality.default,
+    GCHapticsLocality.default,
+    GCHapticsLocality.default
+]

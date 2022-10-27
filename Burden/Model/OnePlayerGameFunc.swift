@@ -81,12 +81,50 @@ func getSpartito(theEmotion : Emotion) -> Spartito {
         return Spartito(aPlay:[worried])
     }
 }
-/*
-func displaySpartito(theSpartito : [String]){
-    for emotion in theSpartito[emotion] {
-        return theSpartito.firstIndex(of: emotion)
+
+func getScore(theScore : Score) -> String {
+    switch theScore{
+    case .Zero :
+        return "Score0"
+    case .One :
+        return "Score1"
+    case .Two :
+        return "Score2"
+    case .Three :
+        return "Score3"
+    case .Four :
+        return "Score4"
+    case .Five :
+        return "Score5"
+    case .Six :
+        return "Score6"
+    case .Seven :
+        return "Score7"
+    case .Eight :
+        return "Score8"
+    case .Nine :
+        return "Score9"
+    case .Ten :
+        return "Score10"
+    case .Eleven :
+        return "Score11"
+    case .Twelve :
+        return "Score12"
+    case .Thirteen :
+        return "Score13"
+    case .Fourteen :
+        return "Score14"
+    case .Fifteen :
+        return "Score15"
+    case .Sixteen :
+        return "Score16"
     }
-    return theSpartito
 }
 
-*/
+
+func playEmotion(theEmotion : Emotion){
+}
+
+func playHapticsFile(named filename: String) {
+    
+}

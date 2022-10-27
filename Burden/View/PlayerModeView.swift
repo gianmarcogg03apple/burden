@@ -71,7 +71,6 @@ struct PlayerModeView: View {
                             .multilineTextAlignment(.trailing)
                             .padding(10)
                             .padding(.top, 100)
-                        
                     }
                     .frame(maxWidth: .infinity, minHeight: 270)
                     .background(Image("twoplayers")
@@ -85,6 +84,7 @@ struct PlayerModeView: View {
                 
                 .padding()
             }
+            .navigationTitle("Player Mode")
         }
     }
 }
