@@ -15,11 +15,13 @@ struct FeelView: View {
         
             VStack(alignment:.leading) {
                 
-                Button(action: Back) {
+                /*Button(action: Back) {
                     Text ("Player Mode")
                 }.padding(.horizontal, 10)
                 
-                    .frame(height:15)
+                    .frame(height:15)*/
+                Spacer()
+                
                 Text ("HOW DO YOU FEEL?")
                     .font(.title)
                     .fontWeight(.bold)
@@ -172,7 +174,7 @@ struct FeelView: View {
                     .cornerRadius(10)
                    
                 }
-                .padding(.bottom, 20)
+                .padding(.bottom, 0)
                 
                 HStack{
                     Image(systemName: "triangle.fill")
@@ -220,7 +222,7 @@ struct FeelView: View {
                 .cornerRadius(10)
                 .padding()
                 
-            }
+            }.padding(.bottom, 40)
             .frame(width: 370)
         }
         .ignoresSafeArea()
