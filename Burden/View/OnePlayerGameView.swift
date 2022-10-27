@@ -48,13 +48,13 @@ struct Playground: View {
                         ForEach(0..<7) { emo in
                             var tab = (getEmotionName(theEmotion:getSpartito(theEmotion: angry).aPlay.shuffled()[emo].emotionTitle))
                             var sprites = [String](repeating: "", count: 54)
-                            var play : [String] = sprites.append(tab)
+                          //  var play : [String] = sprites.append(tab)
                                                         
                            /* Image(getEmotionName(theEmotion:  EmotionName.allCases.shuffled().first!))
                                 .resizable()
                                 .frame(width: 45,height: 45)
                                 .scaledToFit() */
-                            Text(play.shuffled().first!)
+                          //  Text(play.shuffled().first!)
                             Image(tab)
                                     .resizable()
                                     .frame(width: 45,height: 45)
