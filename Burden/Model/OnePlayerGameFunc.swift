@@ -32,12 +32,12 @@ func getEmotionName(theEmotion : EmotionName) -> String {
         return "Optimistic"
     case .Remorse :
         return "Remorse"
-    case .Shocked :
-        return "Shocked"
+    case .Warned :
+        return "Warned"
     case .Submission :
         return "Submission"
-    case .Disgusted :
-        return "Disgusted"
+    case .Impatient :
+        return "Impatient"
     case .Powerful :
         return "Powerful"
     case .Worried :
@@ -48,37 +48,37 @@ func getEmotionName(theEmotion : EmotionName) -> String {
 func getSpartito(theEmotion : Emotion) -> Spartito {
     switch theEmotion.emotionTitle {
     case .Sad :
-        return Spartito(aPlay: [Sad,Powerful,Remorse,Disapointed,Optimistic,Optimistic,Happy,Loved,Sad,Powerful,Shocked,Disapointed,Optimistic,Optimistic,Happy,Optimistic])
+        return Spartito(aPlay: [sad,powerful,remorse,disapointed,optimistic,optimistic,happy,loved,sad,powerful,warned,impatient,optimistic,optimistic,happy,optimistic])
     case .Afraid :
-        return Spartito(aPlay:[Afraid])
+        return Spartito(aPlay:[afraid])
     case .Aggressiveness :
-        return Spartito(aPlay:[Aggressiveness])
+        return Spartito(aPlay:[aggressiveness])
     case .Angry :
-        return Spartito(aPlay:[Angry])
+        return Spartito(aPlay:[angry,contempt,afraid,optimistic,warned,powerful,warned,optimistic,afraid,angry,happy,loved,optimistic,disapointed,remorse,loved,happy])
     case .Anxious :
-        return Spartito(aPlay:[Anxious])
+        return Spartito(aPlay:[anxious])
     case .Contempt :
-        return Spartito(aPlay:[Contempt])
+        return Spartito(aPlay:[contempt])
     case .Disapointed :
-        return Spartito(aPlay:[Disapointed])
+        return Spartito(aPlay:[disapointed])
     case .Happy :
-        return Spartito(aPlay:[Happy])
+        return Spartito(aPlay:[happy])
     case .Loved :
-        return Spartito(aPlay:[Loved])
+        return Spartito(aPlay:[loved])
     case .Optimistic :
-        return Spartito(aPlay:[Optimistic])
+        return Spartito(aPlay:[optimistic])
     case .Remorse :
-        return Spartito(aPlay:[Remorse])
-    case .Shocked :
-        return Spartito(aPlay:[Shocked])
+        return Spartito(aPlay:[remorse])
+    case .Warned :
+        return Spartito(aPlay:[warned])
     case .Submission :
-        return Spartito(aPlay:[Submission])
-    case .Disgusted :
-        return Spartito(aPlay:[Disgusted])
+        return Spartito(aPlay:[submission])
+    case .Impatient :
+        return Spartito(aPlay:[impatient])
     case .Powerful :
-        return Spartito(aPlay:[Powerful])
+        return Spartito(aPlay:[powerful])
     case .Worried :
-        return Spartito(aPlay:[Worried])
+        return Spartito(aPlay:[worried])
     }
 }
 /*

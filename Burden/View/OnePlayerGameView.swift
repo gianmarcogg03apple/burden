@@ -42,15 +42,23 @@ struct Instructions: View{
 struct Playground: View {
     var body: some View{
         ZStack{
-            Grid {
-                ForEach(0..<9){ _ in
+            LazyVGrid(columns: Array(repeating: GridItem(spacing: 4), count: 7), spacing: 4) {
+                ForEach(0..<10){ _ in
                     GridRow {
-                        ForEach(0..<7) { _ in
-                            Image(getEmotionName(theEmotion: EmotionName.allCases.randomElement()!))
+                        ForEach(0..<7) { emo in
+                            var tab = (getEmotionName(theEmotion:getSpartito(theEmotion: angry).aPlay.shuffled()[emo].emotionTitle))
+                            var sprites = [String](repeating: "", count: 54)
+                            var play : [String] = sprites.append(tab)
+                                                        
+                           /* Image(getEmotionName(theEmotion:  EmotionName.allCases.shuffled().first!))
                                 .resizable()
                                 .frame(width: 45,height: 45)
-                                .scaledToFit()
-                            //Image(getSpartito(theEmotion: EmotionName.allCases.randomElement()!))
+                                .scaledToFit() */
+                            Text(play.shuffled().first!)
+                            Image(tab)
+                                    .resizable()
+                                    .frame(width: 45,height: 45)
+                                    .scaledToFit()
                         }
                     }
                 }
@@ -82,10 +90,10 @@ struct Header: View{
                 HStack{ // This is the Spartito
                     Text("hint:")
                     //Afficher chaque elements de la partition
-                    Grid() {
+                    Grid(alignment:.topLeading, horizontalSpacing: 13) {
                         GridRow {
                             ForEach(0..<8){ emo in
-                                Image(getEmotionName(theEmotion:  getSpartito(theEmotion: Sad).aPlay[emo].emotionTitle))
+                                Image(getEmotionName(theEmotion:  getSpartito(theEmotion: angry).aPlay[emo].emotionTitle))
                                     .resizable()
                                     .frame(width: 25,height: 25)
                                     .scaledToFit()
@@ -95,7 +103,7 @@ struct Header: View{
                             .gridCellUnsizedAxes(.horizontal)
                         GridRow {
                             ForEach(8..<16){ emo in
-                                Image(getEmotionName(theEmotion:  getSpartito(theEmotion: Sad).aPlay[emo].emotionTitle))
+                                Image(getEmotionName(theEmotion:  getSpartito(theEmotion: sad).aPlay[emo].emotionTitle))
                                     .resizable()
                                     .frame(width: 25,height: 25)
                                     .scaledToFit()
