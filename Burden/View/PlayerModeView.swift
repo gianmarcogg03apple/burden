@@ -17,9 +17,8 @@ struct PlayerModeView: View {
                 VStack(alignment: .leading) {
                     
                     HStack{
-                        Button {
-                            
-                            
+                        NavigationLink{
+                            RewardView()
                         } label: {
                             Image(systemName: "trophy.circle.fill")
                                 .resizable()
