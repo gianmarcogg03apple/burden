@@ -11,18 +11,22 @@ import CoreHaptics
 struct OnePlayerGameView: View {
     var theEmotionToPlay : Emotion
     var body: some View {
-        ZStack{
-            VStack{
-                Header(theEmotionToPlay: theEmotionToPlay).ignoresSafeArea(.container)
-                ZStack{
-                    Playground(theEmotionToPlay: theEmotionToPlay)
-                    VStack{
-                        Spacer()
-                        Instructions().padding(.horizontal)
+        NavigationView {
+            
+            ZStack{
+                VStack{
+                    Header(theEmotionToPlay: theEmotionToPlay).ignoresSafeArea(.container)
+                    ZStack{
+                        Playground(theEmotionToPlay: theEmotionToPlay)
+                        VStack{
+                            Spacer()
+                            Instructions().padding(.horizontal)
+                        }
                     }
                 }
-            }
-        }.navigationTitle("One Player Game").toolbar(.hidden, for: .navigationBar)
+            }.navigationTitle("One Player Game").toolbar(.hidden, for: .navigationBar)
+                
+        }.navigationBarBackButtonHidden()
     }
 }
 
@@ -47,7 +51,7 @@ struct Playground: View {
         ZStack{
             LazyVGrid(columns: Array(repeating: GridItem(spacing: 4), count: 7), spacing: 4) {
                 ForEach(0..<16){ nemo in
-                    var sprites = [String](repeating: "o_o", count: 54)
+                    let sprites = [String](repeating: "o_o", count: 54)
                     GridRow {
                         ForEach(0..<1) { emo in
                             var tab = (getEmotionName(theEmotion:getSpartito(theEmotion: theEmotionToPlay).aPlay[nemo].emotionTitle))
@@ -107,7 +111,7 @@ struct Header: View{
             
             VStack{
                 HStack{
-                    Text("high score:").opacity(0.6)
+                    Text("high score: 9").opacity(0.6)
                     Spacer()
                     Button {
                         //
@@ -156,10 +160,9 @@ struct Header: View{
 }
 
 
-
-
 struct OnePlayerGameView_Previews: PreviewProvider {
     static var previews: some View {
         OnePlayerGameView(theEmotionToPlay: angry)
+       
     }
 }

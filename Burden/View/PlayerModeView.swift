@@ -24,6 +24,7 @@ struct PlayerModeView: View {
                             Image(systemName: "trophy.circle.fill")
                                 .resizable()
                                 .scaledToFit()
+                                .frame(width: 50)
                                 .foregroundColor(.black)
                                 .padding(.bottom)
                         }
@@ -35,6 +36,7 @@ struct PlayerModeView: View {
                             Image(systemName: "gear")
                                 .resizable()
                                 .scaledToFit()
+                                .frame(width: 50)
                                 .foregroundColor(.black)
                                 .padding(.bottom)
                         }
@@ -59,7 +61,8 @@ struct PlayerModeView: View {
                                 .scaledToFill())
                             .tint(.white)
                             .clipShape(RoundedRectangle(cornerRadius: 25))
-                    }
+                    }.padding(.bottom)
+
                     
                     Button {
                         

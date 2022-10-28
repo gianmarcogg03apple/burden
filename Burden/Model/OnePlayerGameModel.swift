@@ -50,7 +50,7 @@ enum RadiantCircle {
 }
 
 enum EmotionName : CaseIterable {
-    case Sad,Warned,Anxious,Powerful,Happy,Worried,Angry,Impatient,Remorse,Disapointed,Afraid,Submission,Loved,Optimistic,Aggressiveness,Contempt
+    case Sad,Warned,Anxious,Powerful,Happy,Worried,Angry,Impatient,Remorse,Disapointed,Afraid,Submission,Loved,Optimistic,Aggressiveness,Contempt,Neutral
     
 }
 
@@ -84,7 +84,7 @@ var contempt = Emotion(colorName: "Contempt", emotionTitle: .Contempt, emotionSh
 var impatient = Emotion(colorName: "Impatient", emotionTitle: .Impatient, emotionShape: EmotionShape(shapePictureName: "Impatient", shapeColor: .Purple, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
 var submission = Emotion(colorName: "Submission", emotionTitle: .Submission, emotionShape: EmotionShape(shapePictureName: "Submission", shapeColor: .LightGreen, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
 var worried = Emotion(colorName: "Worried", emotionTitle: .Worried, emotionShape: EmotionShape(shapePictureName: "Worried", shapeColor: .Orange, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
-
+var neutral = Emotion(colorName: "Worried", emotionTitle: .Neutral, emotionShape: EmotionShape(shapePictureName: "Loved", shapeColor: .Yellow, shapeSound: "nil", shapeVibration: "nil", isTouched: false, isVisible: true, isVibrating: true, isMakingMusic: true, shapeOpacity: 1, numberOfRadiantCircle: 4, radiantCirclePictureBundle: [.Large,.Medium,.Small,.Tiny]))
 
 
 // Haptics Dataset

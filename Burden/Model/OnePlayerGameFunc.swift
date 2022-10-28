@@ -42,6 +42,8 @@ func getEmotionName(theEmotion : EmotionName) -> String {
         return "Powerful"
     case .Worried :
         return "Worried"
+    case .Neutral :
+        return "Neutral"
     }
 }
 
@@ -80,7 +82,7 @@ func getEmotionToPlay (theEmotionTitle : String) -> Emotion{
     case "Worried" :
         return worried
     default :
-        return happy
+        return neutral
     }
 }
 
@@ -118,6 +120,9 @@ func getSpartito(theEmotion : Emotion) -> Spartito {
         return Spartito(aPlay:[powerful,submission,powerful,optimistic,anxious,anxious,powerful,happy,optimistic,anxious,happy,disapointed,optimistic,powerful,remorse,loved,happy])
     case .Worried :
         return Spartito(aPlay:[worried,submission,powerful,optimistic,anxious,anxious,powerful,happy,optimistic,anxious,happy,disapointed,optimistic,powerful,remorse,loved,happy])
+    case.Neutral :
+        return
+            Spartito(aPlay: [loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved])
     }
 }
 
