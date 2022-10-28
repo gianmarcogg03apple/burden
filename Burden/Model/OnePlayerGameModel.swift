@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreHaptics
 
 struct OnePlayerGame{
     var highScore: Int
@@ -99,13 +100,3 @@ let ahapFiles = [
     "AHAP/Heartbeats"
 ]
 
-let ahapLocalities = [
-    GCHapticsLocality.default,
-    GCHapticsLocality.all,
-    GCHapticsLocality.leftHandle,
-    GCHapticsLocality.rightHandle,
-    GCHapticsLocality.default,
-    GCHapticsLocality.default,
-    GCHapticsLocality.default,
-    GCHapticsLocality.default
-]
