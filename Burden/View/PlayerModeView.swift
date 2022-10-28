@@ -84,7 +84,7 @@ struct PlayerModeView: View {
                 
                 .padding()
             }
-            .navigationTitle("Player Mode")
+            .navigationTitle("Player Mode").toolbar(.hidden, for: .navigationBar)
         }
     }
 }

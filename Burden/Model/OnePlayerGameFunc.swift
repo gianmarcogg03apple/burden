@@ -45,6 +45,45 @@ func getEmotionName(theEmotion : EmotionName) -> String {
     }
 }
 
+func getEmotionToPlay (theEmotionTitle : String) -> Emotion{
+    switch theEmotionTitle {
+    case "Sad" :
+        return sad
+    case "Afraid" :
+        return afraid
+    case "Aggressiveness" :
+        return aggressiveness
+    case "Angry" :
+        return angry
+    case "Anxious" :
+        return anxious
+    case "Contempt" :
+        return contempt
+    case "Disapointed" :
+        return disapointed
+    case "Happy" :
+        return happy
+    case "Loved" :
+        return loved
+    case "Optimistic" :
+        return optimistic
+    case "Remorse" :
+        return remorse
+    case "Warned" :
+        return warned
+    case "Submission" :
+        return submission
+    case "Impatient" :
+        return impatient
+    case "Powerful" :
+        return powerful
+    case "Worried" :
+        return worried
+    default :
+        return happy
+    }
+}
+
 func getSpartito(theEmotion : Emotion) -> Spartito {
     switch theEmotion.emotionTitle {
     case .Sad :
@@ -56,13 +95,13 @@ func getSpartito(theEmotion : Emotion) -> Spartito {
     case .Angry :
         return Spartito(aPlay:[angry,contempt,afraid,optimistic,warned,powerful,warned,optimistic,afraid,angry,happy,loved,optimistic,disapointed,remorse,loved,happy])
     case .Anxious :
-        return Spartito(aPlay:[anxious])
+        return Spartito(aPlay:[anxious,submission,powerful,optimistic,anxious,anxious,powerful,happy,optimistic,anxious,happy,disapointed,optimistic,powerful,remorse,loved,happy])
     case .Contempt :
         return Spartito(aPlay:[contempt])
     case .Disapointed :
         return Spartito(aPlay:[disapointed])
     case .Happy :
-        return Spartito(aPlay:[happy])
+        return Spartito(aPlay:[happy,submission,powerful,optimistic,anxious,anxious,powerful,happy,optimistic,anxious,happy,disapointed,optimistic,powerful,remorse,loved,happy])
     case .Loved :
         return Spartito(aPlay:[loved])
     case .Optimistic :
@@ -70,15 +109,15 @@ func getSpartito(theEmotion : Emotion) -> Spartito {
     case .Remorse :
         return Spartito(aPlay:[remorse])
     case .Warned :
-        return Spartito(aPlay:[warned])
+        return Spartito(aPlay:[warned,submission,powerful,optimistic,anxious,anxious,powerful,happy,optimistic,anxious,happy,disapointed,optimistic,powerful,remorse,loved,happy])
     case .Submission :
         return Spartito(aPlay:[submission])
     case .Impatient :
-        return Spartito(aPlay:[impatient])
+        return Spartito(aPlay:[impatient,submission,powerful,optimistic,anxious,anxious,powerful,happy,optimistic,anxious,happy,disapointed,optimistic,powerful,remorse,loved,happy])
     case .Powerful :
-        return Spartito(aPlay:[powerful])
+        return Spartito(aPlay:[powerful,submission,powerful,optimistic,anxious,anxious,powerful,happy,optimistic,anxious,happy,disapointed,optimistic,powerful,remorse,loved,happy])
     case .Worried :
-        return Spartito(aPlay:[worried])
+        return Spartito(aPlay:[worried,submission,powerful,optimistic,anxious,anxious,powerful,happy,optimistic,anxious,happy,disapointed,optimistic,powerful,remorse,loved,happy])
     }
 }
 

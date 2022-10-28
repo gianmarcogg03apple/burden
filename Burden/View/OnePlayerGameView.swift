@@ -22,7 +22,7 @@ struct OnePlayerGameView: View {
                     }
                 }
             }
-        }
+        }.navigationTitle("One Player Game").toolbar(.hidden, for: .navigationBar)
     }
 }
 
