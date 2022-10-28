@@ -113,8 +113,8 @@ struct Header: View{
                 HStack{
                     Text("high score: 9").opacity(0.6)
                     Spacer()
-                    Button {
-                        //
+                    NavigationLink {
+                        Sett()
                     } label: {
                         Image(systemName: "pause.fill")
                             .font(.title2)
@@ -158,6 +158,39 @@ struct Header: View{
         
     }
 }
+
+// Instruction that appear the first time you play the game
+struct Sett: View{
+    var body: some View{
+        ZStack{
+            Color.clear
+            Color("BackgroundColorHeader")
+                .frame(width: 400,height: 600)
+            VStack{
+                Text("PAUSE")
+                    .multilineTextAlignment(.center)
+                    .font(.title)
+                
+                    Spacer()
+                NavigationLink {
+                    PlayerModeView().navigationBarBackButtonHidden()
+                } label: {
+                    Text("Go back to PlayerMode")
+                }
+                
+                Toggle(isOn: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Is On@*/.constant(true)/*@END_MENU_TOKEN@*/) {
+                    Text("Vibrations")
+                }
+                Toggle(isOn: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Is On@*/.constant(true)/*@END_MENU_TOKEN@*/) {
+                    Text("Sound")
+                }
+                Spacer()
+
+            }.padding(50)
+        }
+    }
+}
+
 
 
 struct OnePlayerGameView_Previews: PreviewProvider {
