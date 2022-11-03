@@ -14,27 +14,27 @@
 		1B30F82029015C20003BBE2C /* BurdenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30F81F29015C20003BBE2C /* BurdenUITests.swift */; };
 		1B30F82229015C20003BBE2C /* BurdenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30F82129015C20003BBE2C /* BurdenUITestsLaunchTests.swift */; };
 		1B6EA6962906834F00075166 /* FeelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6EA6952906834F00075166 /* FeelView.swift */; };
-		1BC785B92913D56B00105558 /* Worried.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785A42913D56A00105558 /* Worried.ahap */; };
-		1BC785BA2913D56B00105558 /* Angry.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785A52913D56A00105558 /* Angry.wav */; };
-		1BC785BB2913D56B00105558 /* Sad.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785A62913D56A00105558 /* Sad.wav */; };
-		1BC785BC2913D56B00105558 /* Warned.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785A72913D56A00105558 /* Warned.ahap */; };
-		1BC785BD2913D56B00105558 /* Angry.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785A82913D56A00105558 /* Angry.ahap */; };
-		1BC785BE2913D56B00105558 /* Sad.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785A92913D56A00105558 /* Sad.ahap */; };
-		1BC785BF2913D56B00105558 /* Impatient.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785AA2913D56A00105558 /* Impatient.ahap */; };
-		1BC785C02913D56B00105558 /* Happy.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785AB2913D56A00105558 /* Happy.ahap */; };
-		1BC785C12913D56B00105558 /* Afraid.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785AC2913D56A00105558 /* Afraid.ahap */; };
-		1BC785C22913D56B00105558 /* Afraid.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785AD2913D56A00105558 /* Afraid.wav */; };
-		1BC785C32913D56B00105558 /* Contempt.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785AE2913D56A00105558 /* Contempt.ahap */; };
-		1BC785C42913D56B00105558 /* Disapointed.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785AF2913D56A00105558 /* Disapointed.ahap */; };
-		1BC785C52913D56B00105558 /* Loved.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785B02913D56A00105558 /* Loved.wav */; };
-		1BC785C62913D56B00105558 /* Optimistic.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785B12913D56A00105558 /* Optimistic.ahap */; };
-		1BC785C72913D56B00105558 /* Aggressiveness.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785B22913D56A00105558 /* Aggressiveness.ahap */; };
-		1BC785C82913D56B00105558 /* Remorse.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785B32913D56A00105558 /* Remorse.ahap */; };
-		1BC785C92913D56B00105558 /* Aggressiveness.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785B42913D56A00105558 /* Aggressiveness.wav */; };
-		1BC785CA2913D56B00105558 /* Loved.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785B52913D56A00105558 /* Loved.ahap */; };
-		1BC785CB2913D56B00105558 /* Powerful.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785B62913D56A00105558 /* Powerful.ahap */; };
-		1BC785CC2913D56B00105558 /* Anxious.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785B72913D56A00105558 /* Anxious.ahap */; };
-		1BC785CD2913D56B00105558 /* Submission.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785B82913D56B00105558 /* Submission.ahap */; };
+		1BC786122913D64E00105558 /* Loved.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785FD2913D64E00105558 /* Loved.ahap */; };
+		1BC786132913D64E00105558 /* Aggressiveness.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785FE2913D64E00105558 /* Aggressiveness.ahap */; };
+		1BC786142913D64E00105558 /* Submission.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC785FF2913D64E00105558 /* Submission.ahap */; };
+		1BC786152913D64E00105558 /* Warned.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786002913D64E00105558 /* Warned.ahap */; };
+		1BC786162913D64E00105558 /* Happy.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786012913D64E00105558 /* Happy.ahap */; };
+		1BC786172913D64E00105558 /* Loved.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786022913D64E00105558 /* Loved.wav */; };
+		1BC786182913D64E00105558 /* Sad.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786032913D64E00105558 /* Sad.wav */; };
+		1BC786192913D64E00105558 /* Sad.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786042913D64E00105558 /* Sad.ahap */; };
+		1BC7861A2913D64E00105558 /* Anxious.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786052913D64E00105558 /* Anxious.ahap */; };
+		1BC7861B2913D64E00105558 /* Afraid.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786062913D64E00105558 /* Afraid.wav */; };
+		1BC7861C2913D64E00105558 /* Worried.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786072913D64E00105558 /* Worried.ahap */; };
+		1BC7861D2913D64E00105558 /* Contempt.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786082913D64E00105558 /* Contempt.ahap */; };
+		1BC7861E2913D64E00105558 /* Afraid.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786092913D64E00105558 /* Afraid.ahap */; };
+		1BC7861F2913D64E00105558 /* Optimistic.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC7860A2913D64E00105558 /* Optimistic.ahap */; };
+		1BC786202913D64E00105558 /* Powerful.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC7860B2913D64E00105558 /* Powerful.ahap */; };
+		1BC786212913D64E00105558 /* Angry.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC7860C2913D64E00105558 /* Angry.wav */; };
+		1BC786222913D64E00105558 /* Aggressiveness.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1BC7860D2913D64E00105558 /* Aggressiveness.wav */; };
+		1BC786232913D64E00105558 /* Angry.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC7860E2913D64E00105558 /* Angry.ahap */; };
+		1BC786242913D64E00105558 /* Impatient.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC7860F2913D64E00105558 /* Impatient.ahap */; };
+		1BC786252913D64E00105558 /* Disapointed.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786102913D64E00105558 /* Disapointed.ahap */; };
+		1BC786262913D64E00105558 /* Remorse.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1BC786112913D64E00105558 /* Remorse.ahap */; };
 		A74CD0CC290BCDFB009B19BC /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74CD0CB290BCDFB009B19BC /* RewardView.swift */; };
 		DCEC82A7290A9281007374D6 /* PlayerModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEC82A6290A9281007374D6 /* PlayerModeView.swift */; };
 		E15F89BD2901948700DE8C9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30F80629015C1F003BBE2C /* ContentView.swift */; };
@@ -72,27 +72,27 @@
 		1B30F81F29015C20003BBE2C /* BurdenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurdenUITests.swift; sourceTree = "<group>"; };
 		1B30F82129015C20003BBE2C /* BurdenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurdenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1B6EA6952906834F00075166 /* FeelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelView.swift; sourceTree = "<group>"; };
-		1BC785A42913D56A00105558 /* Worried.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Worried.ahap; sourceTree = "<group>"; };
-		1BC785A52913D56A00105558 /* Angry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Angry.wav; sourceTree = "<group>"; };
-		1BC785A62913D56A00105558 /* Sad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sad.wav; sourceTree = "<group>"; };
-		1BC785A72913D56A00105558 /* Warned.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Warned.ahap; sourceTree = "<group>"; };
-		1BC785A82913D56A00105558 /* Angry.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Angry.ahap; sourceTree = "<group>"; };
-		1BC785A92913D56A00105558 /* Sad.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sad.ahap; sourceTree = "<group>"; };
-		1BC785AA2913D56A00105558 /* Impatient.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Impatient.ahap; sourceTree = "<group>"; };
-		1BC785AB2913D56A00105558 /* Happy.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Happy.ahap; sourceTree = "<group>"; };
-		1BC785AC2913D56A00105558 /* Afraid.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Afraid.ahap; sourceTree = "<group>"; };
-		1BC785AD2913D56A00105558 /* Afraid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Afraid.wav; sourceTree = "<group>"; };
-		1BC785AE2913D56A00105558 /* Contempt.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Contempt.ahap; sourceTree = "<group>"; };
-		1BC785AF2913D56A00105558 /* Disapointed.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Disapointed.ahap; sourceTree = "<group>"; };
-		1BC785B02913D56A00105558 /* Loved.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Loved.wav; sourceTree = "<group>"; };
-		1BC785B12913D56A00105558 /* Optimistic.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Optimistic.ahap; sourceTree = "<group>"; };
-		1BC785B22913D56A00105558 /* Aggressiveness.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Aggressiveness.ahap; sourceTree = "<group>"; };
-		1BC785B32913D56A00105558 /* Remorse.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Remorse.ahap; sourceTree = "<group>"; };
-		1BC785B42913D56A00105558 /* Aggressiveness.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Aggressiveness.wav; sourceTree = "<group>"; };
-		1BC785B52913D56A00105558 /* Loved.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Loved.ahap; sourceTree = "<group>"; };
-		1BC785B62913D56A00105558 /* Powerful.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Powerful.ahap; sourceTree = "<group>"; };
-		1BC785B72913D56A00105558 /* Anxious.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Anxious.ahap; sourceTree = "<group>"; };
-		1BC785B82913D56B00105558 /* Submission.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Submission.ahap; sourceTree = "<group>"; };
+		1BC785FD2913D64E00105558 /* Loved.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Loved.ahap; sourceTree = "<group>"; };
+		1BC785FE2913D64E00105558 /* Aggressiveness.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Aggressiveness.ahap; sourceTree = "<group>"; };
+		1BC785FF2913D64E00105558 /* Submission.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Submission.ahap; sourceTree = "<group>"; };
+		1BC786002913D64E00105558 /* Warned.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Warned.ahap; sourceTree = "<group>"; };
+		1BC786012913D64E00105558 /* Happy.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Happy.ahap; sourceTree = "<group>"; };
+		1BC786022913D64E00105558 /* Loved.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Loved.wav; sourceTree = "<group>"; };
+		1BC786032913D64E00105558 /* Sad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sad.wav; sourceTree = "<group>"; };
+		1BC786042913D64E00105558 /* Sad.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sad.ahap; sourceTree = "<group>"; };
+		1BC786052913D64E00105558 /* Anxious.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Anxious.ahap; sourceTree = "<group>"; };
+		1BC786062913D64E00105558 /* Afraid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Afraid.wav; sourceTree = "<group>"; };
+		1BC786072913D64E00105558 /* Worried.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Worried.ahap; sourceTree = "<group>"; };
+		1BC786082913D64E00105558 /* Contempt.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Contempt.ahap; sourceTree = "<group>"; };
+		1BC786092913D64E00105558 /* Afraid.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Afraid.ahap; sourceTree = "<group>"; };
+		1BC7860A2913D64E00105558 /* Optimistic.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Optimistic.ahap; sourceTree = "<group>"; };
+		1BC7860B2913D64E00105558 /* Powerful.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Powerful.ahap; sourceTree = "<group>"; };
+		1BC7860C2913D64E00105558 /* Angry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Angry.wav; sourceTree = "<group>"; };
+		1BC7860D2913D64E00105558 /* Aggressiveness.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Aggressiveness.wav; sourceTree = "<group>"; };
+		1BC7860E2913D64E00105558 /* Angry.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Angry.ahap; sourceTree = "<group>"; };
+		1BC7860F2913D64E00105558 /* Impatient.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Impatient.ahap; sourceTree = "<group>"; };
+		1BC786102913D64E00105558 /* Disapointed.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Disapointed.ahap; sourceTree = "<group>"; };
+		1BC786112913D64E00105558 /* Remorse.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Remorse.ahap; sourceTree = "<group>"; };
 		A74CD0CB290BCDFB009B19BC /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
 		DCEC82A6290A9281007374D6 /* PlayerModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModeView.swift; sourceTree = "<group>"; };
 		E15F89BE290199BF00DE8C9A /* OnePlayerGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePlayerGameView.swift; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		1B30F7F829015C1F003BBE2C = {
 			isa = PBXGroup;
 			children = (
-				1BC785CE2913D57000105558 /* AHAP */,
+				1BC785FC2913D64E00105558 /* AHAP */,
 				1B30F80329015C1F003BBE2C /* Burden */,
 				1B30F81429015C20003BBE2C /* BurdenTests */,
 				1B30F81E29015C20003BBE2C /* BurdenUITests */,
@@ -183,30 +183,30 @@
 			path = BurdenUITests;
 			sourceTree = "<group>";
 		};
-		1BC785CE2913D57000105558 /* AHAP */ = {
+		1BC785FC2913D64E00105558 /* AHAP */ = {
 			isa = PBXGroup;
 			children = (
-				1BC785AC2913D56A00105558 /* Afraid.ahap */,
-				1BC785AD2913D56A00105558 /* Afraid.wav */,
-				1BC785B22913D56A00105558 /* Aggressiveness.ahap */,
-				1BC785B42913D56A00105558 /* Aggressiveness.wav */,
-				1BC785A82913D56A00105558 /* Angry.ahap */,
-				1BC785A52913D56A00105558 /* Angry.wav */,
-				1BC785B72913D56A00105558 /* Anxious.ahap */,
-				1BC785AE2913D56A00105558 /* Contempt.ahap */,
-				1BC785AF2913D56A00105558 /* Disapointed.ahap */,
-				1BC785AB2913D56A00105558 /* Happy.ahap */,
-				1BC785AA2913D56A00105558 /* Impatient.ahap */,
-				1BC785B52913D56A00105558 /* Loved.ahap */,
-				1BC785B02913D56A00105558 /* Loved.wav */,
-				1BC785B12913D56A00105558 /* Optimistic.ahap */,
-				1BC785B62913D56A00105558 /* Powerful.ahap */,
-				1BC785B32913D56A00105558 /* Remorse.ahap */,
-				1BC785A92913D56A00105558 /* Sad.ahap */,
-				1BC785A62913D56A00105558 /* Sad.wav */,
-				1BC785B82913D56B00105558 /* Submission.ahap */,
-				1BC785A72913D56A00105558 /* Warned.ahap */,
-				1BC785A42913D56A00105558 /* Worried.ahap */,
+				1BC785FD2913D64E00105558 /* Loved.ahap */,
+				1BC785FE2913D64E00105558 /* Aggressiveness.ahap */,
+				1BC785FF2913D64E00105558 /* Submission.ahap */,
+				1BC786002913D64E00105558 /* Warned.ahap */,
+				1BC786012913D64E00105558 /* Happy.ahap */,
+				1BC786022913D64E00105558 /* Loved.wav */,
+				1BC786032913D64E00105558 /* Sad.wav */,
+				1BC786042913D64E00105558 /* Sad.ahap */,
+				1BC786052913D64E00105558 /* Anxious.ahap */,
+				1BC786062913D64E00105558 /* Afraid.wav */,
+				1BC786072913D64E00105558 /* Worried.ahap */,
+				1BC786082913D64E00105558 /* Contempt.ahap */,
+				1BC786092913D64E00105558 /* Afraid.ahap */,
+				1BC7860A2913D64E00105558 /* Optimistic.ahap */,
+				1BC7860B2913D64E00105558 /* Powerful.ahap */,
+				1BC7860C2913D64E00105558 /* Angry.wav */,
+				1BC7860D2913D64E00105558 /* Aggressiveness.wav */,
+				1BC7860E2913D64E00105558 /* Angry.ahap */,
+				1BC7860F2913D64E00105558 /* Impatient.ahap */,
+				1BC786102913D64E00105558 /* Disapointed.ahap */,
+				1BC786112913D64E00105558 /* Remorse.ahap */,
 			);
 			path = AHAP;
 			sourceTree = "<group>";
@@ -336,29 +336,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC785CA2913D56B00105558 /* Loved.ahap in Resources */,
-				1BC785BE2913D56B00105558 /* Sad.ahap in Resources */,
-				1BC785C82913D56B00105558 /* Remorse.ahap in Resources */,
-				1BC785CC2913D56B00105558 /* Anxious.ahap in Resources */,
+				1BC786212913D64E00105558 /* Angry.wav in Resources */,
+				1BC786192913D64E00105558 /* Sad.ahap in Resources */,
+				1BC786182913D64E00105558 /* Sad.wav in Resources */,
+				1BC786132913D64E00105558 /* Aggressiveness.ahap in Resources */,
+				1BC7861E2913D64E00105558 /* Afraid.ahap in Resources */,
+				1BC7861A2913D64E00105558 /* Anxious.ahap in Resources */,
+				1BC786252913D64E00105558 /* Disapointed.ahap in Resources */,
+				1BC786222913D64E00105558 /* Aggressiveness.wav in Resources */,
+				1BC786142913D64E00105558 /* Submission.ahap in Resources */,
+				1BC7861B2913D64E00105558 /* Afraid.wav in Resources */,
+				1BC786242913D64E00105558 /* Impatient.ahap in Resources */,
+				1BC786152913D64E00105558 /* Warned.ahap in Resources */,
 				1B30F80C29015C20003BBE2C /* Preview Assets.xcassets in Resources */,
-				1BC785C72913D56B00105558 /* Aggressiveness.ahap in Resources */,
-				1BC785B92913D56B00105558 /* Worried.ahap in Resources */,
-				1BC785BC2913D56B00105558 /* Warned.ahap in Resources */,
-				1BC785C92913D56B00105558 /* Aggressiveness.wav in Resources */,
-				1BC785C12913D56B00105558 /* Afraid.ahap in Resources */,
-				1BC785C22913D56B00105558 /* Afraid.wav in Resources */,
-				1BC785CB2913D56B00105558 /* Powerful.ahap in Resources */,
-				1BC785C42913D56B00105558 /* Disapointed.ahap in Resources */,
-				1BC785BA2913D56B00105558 /* Angry.wav in Resources */,
-				1BC785BD2913D56B00105558 /* Angry.ahap in Resources */,
-				1BC785C02913D56B00105558 /* Happy.ahap in Resources */,
-				1BC785BF2913D56B00105558 /* Impatient.ahap in Resources */,
-				1BC785C32913D56B00105558 /* Contempt.ahap in Resources */,
-				1BC785C62913D56B00105558 /* Optimistic.ahap in Resources */,
-				1BC785CD2913D56B00105558 /* Submission.ahap in Resources */,
-				1BC785BB2913D56B00105558 /* Sad.wav in Resources */,
+				1BC7861C2913D64E00105558 /* Worried.ahap in Resources */,
 				1B30F80929015C20003BBE2C /* Assets.xcassets in Resources */,
-				1BC785C52913D56B00105558 /* Loved.wav in Resources */,
+				1BC786162913D64E00105558 /* Happy.ahap in Resources */,
+				1BC7861F2913D64E00105558 /* Optimistic.ahap in Resources */,
+				1BC786262913D64E00105558 /* Remorse.ahap in Resources */,
+				1BC786232913D64E00105558 /* Angry.ahap in Resources */,
+				1BC7861D2913D64E00105558 /* Contempt.ahap in Resources */,
+				1BC786122913D64E00105558 /* Loved.ahap in Resources */,
+				1BC786202913D64E00105558 /* Powerful.ahap in Resources */,
+				1BC786172913D64E00105558 /* Loved.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
