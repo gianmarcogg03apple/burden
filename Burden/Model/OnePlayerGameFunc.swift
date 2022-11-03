@@ -44,6 +44,8 @@ func getEmotionName(theEmotion : EmotionName) -> String {
         return "Worried"
     case .Neutral :
         return "Neutral"
+    case .Blank :
+        return "Blank"
     }
 }
 
@@ -120,55 +122,148 @@ func getSpartito(theEmotion : Emotion) -> Spartito {
         return Spartito(aPlay:[powerful,submission,powerful,optimistic,anxious,anxious,powerful,happy,optimistic,anxious,happy,disapointed,optimistic,powerful,remorse,loved,happy])
     case .Worried :
         return Spartito(aPlay:[worried,submission,powerful,optimistic,anxious,anxious,powerful,happy,optimistic,anxious,happy,disapointed,optimistic,powerful,remorse,loved,happy])
-    case.Neutral :
-        return
-            Spartito(aPlay: [loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved])
+    case .Neutral :
+        return Spartito(aPlay: [loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved,loved])
+    case .Blank :
+        return Spartito(aPlay: [blankEmo])
     }
 }
 
-func getScore(theScore : Score) -> String {
+func displayScore(theScore : Int) -> String {
     switch theScore{
-    case .Zero :
+    case 0 :
         return "Score0"
-    case .One :
+    case 1 :
         return "Score1"
-    case .Two :
+    case 2 :
         return "Score2"
-    case .Three :
+    case 3 :
         return "Score3"
-    case .Four :
+    case 4 :
         return "Score4"
-    case .Five :
+    case 5 :
         return "Score5"
-    case .Six :
+    case 6 :
         return "Score6"
-    case .Seven :
+    case 7 :
         return "Score7"
-    case .Eight :
+    case 8 :
         return "Score8"
-    case .Nine :
+    case 9 :
         return "Score9"
-    case .Ten :
+    case 10 :
         return "Score10"
-    case .Eleven :
+    case 11 :
         return "Score11"
-    case .Twelve :
+    case 12 :
         return "Score12"
-    case .Thirteen :
+    case 13 :
         return "Score13"
-    case .Fourteen :
+    case 14 :
         return "Score14"
-    case .Fifteen :
+    case 15 :
         return "Score15"
-    case .Sixteen :
+    case 16 :
         return "Score16"
+    default :
+        return "Score0"
     }
 }
 
+func getScore(theScore : String) -> Int {
+    var scoreToUpdate : Int
+    switch theScore{
+    case "Score0" :
+        scoreToUpdate = 1
+        return scoreToUpdate
+    case "Score1" :
+        scoreToUpdate = 2
+        return scoreToUpdate
+    case "Score2" :
+        scoreToUpdate = 3
+        return scoreToUpdate
+    case "Score3" :
+        scoreToUpdate = 4
+        return scoreToUpdate
+    case "Score4" :
+        scoreToUpdate = 5
+        return scoreToUpdate
+    case "Score5" :
+        scoreToUpdate = 6
+        return scoreToUpdate
+    case "Score6" :
+        scoreToUpdate = 7
+        return scoreToUpdate
+    case "Score7" :
+        scoreToUpdate = 8
+        return scoreToUpdate
+    case "Score8" :
+        scoreToUpdate = 9
+        return scoreToUpdate
+    case "Score9" :
+        scoreToUpdate = 10
+        return scoreToUpdate
+    case "Score10" :
+        scoreToUpdate = 11
+        return scoreToUpdate
+    case "Score11" :
+        scoreToUpdate = 12
+        return scoreToUpdate
+    case "Score12" :
+        scoreToUpdate = 13
+        return scoreToUpdate
+    case "Score13" :
+        scoreToUpdate = 14
+        return scoreToUpdate
+    case "Score14" :
+        scoreToUpdate = 15
+        return scoreToUpdate
+    case "Score15" :
+        scoreToUpdate = 16
+        return scoreToUpdate
+    case "Score16" :
+        scoreToUpdate = 0
+        return scoreToUpdate
+    default :
+        scoreToUpdate = -1
+        return 0
+    }
+}
+/*
+@MainActor func updateScore(score : TheScore){
+    //update score and highscore to finish
+    score.gameScore = getScore(theScore: score.scoreToDisplay )
+    score.scoreToDisplay = displayScore(theScore: score.gameScore)
+    if (score.highScore >= 0 && score.highScore < 17){
+        if (score.highScore >= score.gameScore){
+            score.highScore = score.highScore
+            
+        }else{
+            score.highScore += 1
+        }
+        
+    }
+}
+ */
 
-func playEmotion(theEmotion : Emotion){
+
+
+func checkShapeIsTouched (theEmotionShape : EmotionShape?) -> Bool{
+    theEmotionShape?.isTouched == true ? true : false
 }
 
-func playHapticsFile(named filename: String) {
+func checkShapeIsVisible (theEmotionShape : EmotionShape?) -> Bool{
+    theEmotionShape?.isVisible == true ? true : false
+}
+
+func getSpartitoEmotionsOnPlayground (theSpartitoToShuffle : Spartito) -> Spartito {
+    var theNotSoVoidPlayground : Spartito = Spartito(aPlay: [Emotion](repeating: blankEmo, count: 53))
+    for emo in theSpartitoToShuffle.aPlay {
+        theNotSoVoidPlayground.aPlay.append(emo)
+    }
+    theNotSoVoidPlayground.aPlay.shuffle()
+    theNotSoVoidPlayground.aPlay.shuffle()
+    theNotSoVoidPlayground.aPlay.shuffle()
     
+    return theNotSoVoidPlayground
 }

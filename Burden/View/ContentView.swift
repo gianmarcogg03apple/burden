@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var score = TheScore()
     var body: some View {
         PlayerModeView()
+            .environmentObject(score)
     }
 }
 

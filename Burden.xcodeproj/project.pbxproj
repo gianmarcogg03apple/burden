@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B26C9DC2913D18F005DD366 /* AHAP in Resources */ = {isa = PBXBuildFile; fileRef = 1B26C9DB2913D18F005DD366 /* AHAP */; };
 		1B30F80529015C1F003BBE2C /* BurdenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B30F80429015C1F003BBE2C /* BurdenApp.swift */; };
 		1B30F80929015C20003BBE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B30F80829015C20003BBE2C /* Assets.xcassets */; };
 		1B30F80C29015C20003BBE2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B30F80B29015C20003BBE2C /* Preview Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B26C9DB2913D18F005DD366 /* AHAP */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AHAP; path = Burden/AHAP; sourceTree = SOURCE_ROOT; };
 		1B30F80129015C1F003BBE2C /* Burden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Burden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B30F80429015C1F003BBE2C /* BurdenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurdenApp.swift; sourceTree = "<group>"; };
 		1B30F80629015C1F003BBE2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		1B30F80329015C1F003BBE2C /* Burden */ = {
 			isa = PBXGroup;
 			children = (
+				1B26C9DB2913D18F005DD366 /* AHAP */,
 				1B30F80429015C1F003BBE2C /* BurdenApp.swift */,
 				E15F89C32901AE5900DE8C9A /* View */,
 				E15F89C22901AE4A00DE8C9A /* Model */,
@@ -267,6 +270,7 @@
 			files = (
 				1B30F80C29015C20003BBE2C /* Preview Assets.xcassets in Resources */,
 				1B30F80929015C20003BBE2C /* Assets.xcassets in Resources */,
+				1B26C9DC2913D18F005DD366 /* AHAP in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Burden/Preview Content\"";
-				DEVELOPMENT_TEAM = A6GC5K5ERX;
+				DEVELOPMENT_TEAM = 7N94D8F4YA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -470,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.girofesta.sarah.Burden;
+				PRODUCT_BUNDLE_IDENTIFIER = com.girofesta.gm.Burden;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,7 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Burden/Preview Content\"";
-				DEVELOPMENT_TEAM = A6GC5K5ERX;
+				DEVELOPMENT_TEAM = 7N94D8F4YA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -499,7 +503,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.girofesta.sarah.Burden;
+				PRODUCT_BUNDLE_IDENTIFIER = com.girofesta.gm.Burden;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
